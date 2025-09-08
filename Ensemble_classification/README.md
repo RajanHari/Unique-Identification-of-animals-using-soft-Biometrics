@@ -27,13 +27,11 @@ This dataset is for non-commercial use (e.g., research or education). You must c
 
 1) Base Architecture: ResNet-18 pretrained on ImageNet
 2) Tasks:
-
 * Identity classification (multi-class)
 *  Age group classification (discretized age buckets)
 *  Gender classification (binary)
 
 3) Ensemble:
-
 * Separate models for age, gender, and identity
 * Features and predictions from age and gender models are combined with image features for final identity prediction using a meta-classifier
 
