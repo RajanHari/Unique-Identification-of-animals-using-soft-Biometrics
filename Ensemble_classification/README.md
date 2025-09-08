@@ -27,13 +27,13 @@ This dataset is for non-commercial use (e.g., research or education). You must c
 
 1) Base Architecture: ResNet-18 pretrained on ImageNet
 2) Tasks:
-* Identity classification (multi-class)
-*  Age group classification (discretized age buckets)
-*  Gender classification (binary)
+    * Identity classification (multi-class)
+    *  Age group classification (discretized age buckets)
+    *  Gender classification (binary)
 
 3) Ensemble:
-* Separate models for age, gender, and identity
-* Features and predictions from age and gender models are combined with image features for final identity prediction using a meta-classifier
+    * Separate models for age, gender, and identity
+    * Features and predictions from age and gender models are combined with image features for final identity prediction using a meta-classifier
 
 4) Input: Cropped face images resized to 224×224
 5) Loss Function: CrossEntropyLoss for all tasks
@@ -49,29 +49,29 @@ This dataset is for non-commercial use (e.g., research or education). You must c
 ## Pipeline Description
 
 1) Data Loading and Preprocessing:
-* Parses annotations to link images with name, age, and gender labels
-* Computes average age per individual to reduce label noise
-* Converts continuous ages into discrete age groups (configurable bucket size, default 8 years)
-* Excludes chimpanzees with fewer than 10 samples or missing labels
+    * Parses annotations to link images with name, age, and gender labels
+    * Computes average age per individual to reduce label noise
+    * Converts continuous ages into discrete age groups (configurable bucket size, default 8 years)
+    * Excludes chimpanzees with fewer than 10 samples or missing labels
 
 2) Dataset Splitting: Stratified splitting by chimpanzee identity into training (70%), validation (21%), and testing (9%) sets
 
 3) Dataset Class: Custom PyTorch Dataset supports multi-task labels and applies data augmentations during training
 
 4) Models:
-* Separate ResNet-18 models for age, gender, and name classification
-* Ensemble model combines age and gender predictions and ResNet features with the name model predictions via a meta-classifier
+    * Separate ResNet-18 models for age, gender, and name classification
+    * Ensemble model combines age and gender predictions and ResNet features with the name model predictions via a meta-classifier
 
 5) Training:
-* Stage 1: Train age and gender models individually
-* Stage 2: Train ensemble model, initially freezing age and gender models, then fine-tuning all models jointly
+    * Stage 1: Train age and gender models individually
+    * Stage 2: Train ensemble model, initially freezing age and gender models, then fine-tuning all models jointly
 
 6) Evaluation:
-* Validation during training to monitor accuracy
-* Final testing compares baseline name model and ensemble model performance
+    * Validation during training to monitor accuracy
+    * Final testing compares baseline name model and ensemble model performance
 
 7) Visualization:
-* Confusion matrices for baseline and ensemble models on the top 20 most frequent chimpanzee identities
+    * Confusion matrices for baseline and ensemble models on the top 20 most frequent chimpanzee identities
 
 
 ## Usage Instructions
@@ -96,10 +96,10 @@ python multitask_ensemble_training.py
 
 This will:
 
-* Train the individual age and gender models
-* Train the ensemble name classification model
-* Evaluate and print accuracy results
-* Display confusion matrices
+    * Train the individual age and gender models
+    * Train the ensemble name classification model
+    * Evaluate and print accuracy results
+    * Display confusion matrices
 
 ## Hyperparameters and Configuration
 
