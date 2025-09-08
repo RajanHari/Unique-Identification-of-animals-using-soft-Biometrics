@@ -6,7 +6,7 @@ This repository provides a deep learning pipeline to classify chimpanzee gender 
 
 ## Dataset
 
-The dataset is sourced from the [Chimpanzee Faces Dataset](https://github.com/cvjena/chimpanzee_faces) by CV Jena. It includes cropped chimpanzee facial images with annotations for name, age, and gender.
+The dataset is sourced from the [Chimpanzee Faces Dataset](https://github.com/cvjena/chimpanzee_faces). It includes cropped chimpanzee facial images with annotations for name, age, and gender.
 
 ### Download Dataset
 
