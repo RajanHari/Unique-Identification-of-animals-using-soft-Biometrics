@@ -13,7 +13,7 @@ The dataset is sourced from the [Chimpanzee Faces Dataset](https://github.com/cv
 ```bash
 git clone https://github.com/cvjena/chimpanzee_faces
 
-
+```
 
 ## Model Overview
 
