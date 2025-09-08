@@ -108,10 +108,10 @@ python multitask_ensemble_training.py
 
 This will:
 
-    * Train the individual age and gender models
-    * Train the ensemble name classification model
-    * Evaluate and print accuracy results
-    * Display confusion matrices
+* Train the individual age and gender models
+* Train the ensemble name classification model
+* Evaluate and print accuracy results
+* Display confusion matrices
 
 ## Hyperparameters and Configuration
 
