@@ -133,17 +133,29 @@ This will:
 
 
 Training Age Model...
+
 Age Epoch [1/8] Loss: 1.2345 Acc: 0.65
+
 ...
+
 Training Gender Model...
+
 Gender Epoch [1/8] Loss: 0.8453 Acc: 0.78
+
 ...
+
 Training Ensemble Model...
+
 Ensemble Epoch [1/15] Train Loss: 1.1234 Train Acc: 0.72 Val Acc: 0.68
+
 ...
+
 === TEST RESULTS ===
+
 Baseline Name Model Accuracy: 0.70
+
 Ensemble Model Accuracy: 0.78
+
 Improvement: 0.08 (11.43%)
 
 
