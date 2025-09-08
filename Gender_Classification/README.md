@@ -55,6 +55,7 @@ Classification Report:
 
     accuracy                           0.83       266
    macro avg       0.83      0.83      0.83       266
+   
 weighted avg       0.83      0.83      0.83       266
 
 
