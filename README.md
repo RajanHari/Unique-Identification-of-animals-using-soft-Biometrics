@@ -7,7 +7,16 @@ This repository contains Image-based and non-invasive method to identify individ
 
 ---
 
-* 
+## Code Organization
+
+The codebase is organized into separate folders for each classification task and the ensemble model:
+
+* Age_Classification: Contains the code and scripts for training and evaluating the age classification model.
+* Gender_Classification: Contains the code and scripts for training and evaluating the gender classification model.
+* Direct_name_classification: Contains the code and scripts for the baseline name classification model.
+* Ensemble_classification: Contains the code for the final ensemble model, which combines age, gender, and name predictions to improve chimpanzee identification accuracy.
+
+
 
 ## Dataset
 
