@@ -1,6 +1,6 @@
 # Chimpanzee Identity, Age, and Gender Multi-task Classifier using CNN Ensemble
 
-This repository contains a deep learning pipeline that performs multi-task classification of chimpanzee identity, age group, and gender from cropped chimpanzee face images. The approach combines individual models for age, gender, and identity using an ensemble architecture based on a ResNet-18 backbone.
+This folder contains a deep learning pipeline that performs multi-task classification of chimpanzee identity, age group, and gender from cropped chimpanzee face images. The approach combines individual models for age, gender, and identity using an ensemble architecture based on a ResNet-18 backbone.
 
 ---
 
