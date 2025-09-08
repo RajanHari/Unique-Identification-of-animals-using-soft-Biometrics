@@ -17,25 +17,16 @@ git clone https://github.com/cvjena/chimpanzee_faces
 
 ## Model Overview
 
-Model: ResNet-18 (pretrained on ImageNet)
-
-Task: Binary gender classification (Male / Female)
-
-Input: Cropped chimpanzee face images (resized to 224x224)
-
-Loss Function: CrossEntropyLoss with class weights
-
-Optimizer: Adam
-
-Data Augmentation:
-
-Color jitter
-
-Random grayscale
-
-Sharpness adjustment
-
-Gaussian blur
+1) Model: ResNet-18 (pretrained on ImageNet)
+2) Task: Binary gender classification (Male / Female)
+3) Input: Cropped chimpanzee face images (resized to 224x224)
+4) Loss Function: CrossEntropyLoss with class weights
+5) Optimizer: Adam
+6) Data Augmentation:
+7) Color jitter
+8) Random grayscale
+9) Sharpness adjustment
+10) Gaussian blur
 
 
 
