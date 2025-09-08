@@ -153,7 +153,7 @@ Improvement: 0.08 (11.43%)
 ## Notes
 
 * Chimpanzees with fewer than 10 images or missing labels are excluded for robust training.
-* Age annotations are averaged across images per chimpanzee to reduce noise.\
+* Age annotations are averaged across images per chimpanzee to reduce noise.
 * The ensemble approach leverages multi-task learning by integrating age and gender predictions into the identity classifier.
 * Dataset splits are stratified by identity to maintain balanced representation.
 * Data augmentation helps improve generalization to diverse image conditions.
