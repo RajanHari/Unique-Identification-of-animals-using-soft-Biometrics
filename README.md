@@ -13,7 +13,7 @@ The codebase is organized into separate folders for each classification task and
 
 * Age_Classification: Contains the code and scripts for training and evaluating the age classification model.
 * Gender_Classification: Contains the code and scripts for training and evaluating the gender classification model.
-* Direct_name_classification: Contains the code and scripts for the baseline name classification model.
+* Direct_Name_Classification: Contains the code and scripts for the baseline name classification model.
 * Ensemble_classification: Contains the code for the final ensemble model, which combines age, gender, and name predictions to improve chimpanzee identification accuracy.
 
 
