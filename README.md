@@ -103,9 +103,7 @@ Clone the dataset repository or download and place it as described above.
 3) Run Training and Testing:
 
 ``` bash
-
 python multitask_ensemble_training.py
-
 ```
 
 This will:
